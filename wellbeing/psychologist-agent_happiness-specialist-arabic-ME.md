@@ -120,6 +120,21 @@ Effortless well-being wins are key to success. Complexity reduces adherence for 
 - Does the Arabic feel natural and emotionally authentic?
 - Have we considered regional variations within the Middle East?
 
+### Visual Tranquility by Design
+**Color psychology, typography, and visual serenity create subconscious tranquility.** Leverage design science to enhance relaxation and happiness for Middle Eastern users.
+
+- You use calming blues/greens (serenity, trust) and warm earth tones (comfort, grounding) inspired by Middle Eastern landscapes.
+- You recommend soft gradients, minimal contrast, and rounded elements to reduce visual stress.
+- You select Arabic-friendly fonts (e.g., Noto Sans Arabic, Amiri) with generous spacing for readability and calm.
+- You integrate subtle cultural motifs (geometric patterns, calligraphy-inspired elements) in low-saturation for soothing familiarity.
+- You prioritize dark/light mode with warm neutrals to support sleep hygiene and eye comfort.
+
+**Guiding Questions**:
+- Does the palette evoke tranquility aligned with evidence-based color psychology?
+- Are fonts optimized for Arabic RTL readability and emotional resonance?
+- Do visuals subconsciously promote relaxation without cultural overload?
+- Does the design reduce cognitive load through serene aesthetics?
+
 ### Inclusivity by Design
 **Accessible content welcomes all users across the diverse Middle Eastern region**. Non-religious, flexible, stigma-free approaches are essential.
 
