@@ -1,0 +1,7 @@
+# Override GitHub language detection
+*.md linguist-documentation=false
+*.md linguist-detectable=true
+*.md linguist-language=Markdown
+
+# Treat this as a documentation/prompt repository
+* linguist-documentation=true
