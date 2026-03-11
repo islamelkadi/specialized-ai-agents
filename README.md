@@ -1,377 +1,274 @@
+# 🤖 Specialized AI Agents Collection
 
-# Effective Specialized AI Agents
+> **A curated collection of specialized AI agents for entrepreneurial exploration and multi-agent collaboration**
 
-A collection of highly specialized AI agent prompts designed to work collaboratively in a multi-agent environment. Built for creating an **Arabic-first Middle Eastern happiness and well-being mobile application**, these agents can be adapted for any complex product development workflow requiring diverse expertise.
+This repository contains a diverse set of AI agent personas designed for creative problem-solving, business development, and innovative thinking. Each agent brings deep domain expertise while being designed to work collaboratively in multi-agent environments.
 
-## 🎯 Philosophy
+## 📋 Table of Contents
 
-Modern AI systems achieve their best results through **specialized agents working collaboratively**, not monolithic general-purpose agents. This repository implements a multi-agent architecture where:
+- [🎯 Purpose & Vision](#purpose--vision)
+- [🏗️ Agent Architecture](#agent-architecture)
+- [📁 Agent Categories](#agent-categories)
+  - [🎯 Product & Strategy](#product--strategy)
+  - [🎨 Design & User Experience](#design--user-experience)
+  - [✍️ Content & Communication](#content--communication)
+  - [💡 Innovation & Validation](#innovation--validation)
+  - [🧠 Wellbeing & Psychology](#wellbeing--psychology)
+  - [🎼 Orchestration & Coordination](#orchestration--coordination)
+- [🤝 Multi-Agent Collaboration](#multi-agent-collaboration)
+- [🎭 Orchestration Example: Building a Meditation Feature](#orchestration-example-building-a-meditation-feature)
+- [🎮 How to Use These Agents](#how-to-use-these-agents)
+- [🌟 Key Features](#key-features)
+- [🎯 Use Cases](#use-cases)
+- [🚀 Getting Started](#getting-started)
+- [🎨 Agent Specializations](#agent-specializations)
+- [🔮 Future Vision](#future-vision)
+- [📝 Contributing](#contributing)
+- [⚖️ License](#license)
 
-- **Each agent is a deep specialist** in one domain (product strategy, clinical psychology, UX design, etc.)
-- **Agents collaborate through structured workflows** (sequential, parallel, iterative)
-- **An orchestrator coordinates** agent invocation and synthesizes outputs
-- **Transparency is maintained** - you see individual agent reasoning and unified recommendations
+## 🎯 Purpose & Vision
 
-## 🏗️ Architecture
+This project is built for **fun, exploration, and entrepreneurial discovery**. The goal is to:
 
-### Multi-Agent Collaboration Model
+- **Explore new ideas** through the lens of different specialized perspectives
+- **Enable multi-agent collaboration** where agents can work together on complex challenges
+- **Accelerate creative problem-solving** by combining diverse expertise
+- **Support entrepreneurial thinking** with structured, expert-level guidance
+- **Experiment with AI-powered ideation** and strategic planning
 
+Whether you're brainstorming a new product, solving a complex business challenge, or exploring innovative approaches, these agents provide expert-level thinking and collaborative problem-solving capabilities.
+
+## 🏗️ Agent Architecture
+
+Each agent is designed with:
+
+- **Deep Domain Expertise**: 10-15+ years of specialized experience
+- **Agentic Capabilities**: Autonomous reasoning, planning, and tool usage
+- **Multi-Agent Collaboration**: Clear frameworks for when to lead vs. consult
+- **Structured Reasoning**: Consistent problem-solving methodologies
+- **Practical Implementation**: Actionable recommendations and next steps
+
+## 📁 Agent Categories
+
+### 🎯 Product & Strategy
+- **[Product Manager - B2C Mobile Apps](./product/product-manager-agent-arabic-mobile-wellbeing.md)**: Specialized in viral B2C mobile applications with Arabic/Middle Eastern focus
+- **[Product Manager - General](./product/product-manager-agent-general.md)**: Broad B2C product expertise across platforms and industries
+- **[Business Strategist](./strategy/business-strategist-agent-general.md)**: Strategic planning and competitive positioning expert
+- **[Devils Advocate](./strategy/devils-advocate-agent-critical-analysis.md)**: Critical analysis and gap detection specialist
+
+### 🎨 Design & User Experience  
+- **[UX/UI Designer - Arabic RTL Wellbeing](./design/ux-ui-designer-agent-arabic-rtl-wellbeing.md)**: Specialized in Arabic-first wellbeing app design
+- **[UX/UI Designer - General](./design/ux-ui-designer-agent-general.md)**: Comprehensive digital product design expertise
+
+### ✍️ Content & Communication
+- **[Arabic Content Specialist](./content/content-specialist-agent-arabic-me-wellbeing.md)**: Arabic language content for Middle Eastern wellbeing
+- **[Content Strategist - General](./content/content-strategist-agent-general.md)**: Digital content strategy and information architecture
+
+### 💡 Innovation & Validation
+- **[Innovation Ideation Specialist](./innovation/innovation-specialist-agent-creative-ideation.md)**: Creative problem-solving and breakthrough thinking
+- **[Innovation Specialist - General](./innovation/innovation-specialist-agent-general.md)**: Systematic innovation and emerging technology assessment
+- **[MVP Hypothesis Testing](./validation/validation-specialist-agent-rapid-mvp-testing.md)**: Rapid validation and lean startup methodologies
+- **[Market Validation Specialist](./validation/market-validation-specialist-agent-general.md)**: Customer discovery and market validation expert
+
+### 🧠 Wellbeing & Psychology
+- **[Psychologist - Arabic ME Wellbeing](./wellbeing/psychologist-agent-arabic-me-wellbeing.md)**: Licensed clinical psychologist specializing in Middle Eastern wellbeing
+- **[Wellness Coach - General](./wellbeing/wellness-coach-agent-general.md)**: Holistic wellness and lifestyle optimization
+
+### 🎼 Orchestration & Coordination
+- **[Multi-Agent Orchestrator](./orchestration/orchestrator-agent-multi-agent-coordinator.md)**: Coordinates complex multi-agent workflows
+- **[Project Manager - General](./orchestration/project-manager-agent-general.md)**: Cross-functional project coordination and delivery
+
+## 🤝 Multi-Agent Collaboration
+
+These agents are designed to work together seamlessly:
+
+### Collaboration Framework
+Each agent understands:
+- **When to Lead**: Their areas of primary expertise and decision-making authority
+- **When to Consult**: When to defer to other agents' specialized knowledge
+- **How to Integrate**: Methods for synthesizing inputs from multiple agents
+- **Shared Context**: Maintaining alignment across the agent ecosystem
+
+### Example Multi-Agent Workflows
+
+**🚀 New Product Development**
+1. **Business Strategist** → Market opportunity analysis
+2. **Market Validation Specialist** → Customer discovery and validation
+3. **Product Manager** → Feature prioritization and roadmap
+4. **UX/UI Designer** → User experience and interface design
+5. **Innovation Specialist** → Breakthrough feature ideation
+6. **Project Manager** → Execution planning and coordination
+
+**🎯 Arabic Wellbeing App**
+1. **Psychologist (Arabic ME)** → Clinical framework and therapeutic approach
+2. **UX/UI Designer (Arabic RTL)** → Culturally-appropriate interface design
+3. **Arabic Content Specialist** → Localized content and messaging
+4. **Product Manager (B2C Mobile)** → Mobile-first product strategy
+5. **Orchestrator** → Multi-agent workflow coordination
+
+## 🎭 Orchestration Example: Building a Meditation Feature
+
+Here's a practical example of how to orchestrate multiple agents for a complex product challenge:
+
+### Scenario: "We want to add a guided meditation feature to our Arabic wellbeing app"
+
+#### Phase 1: Strategic Foundation (Sequential)
 ```
-User Request
-    ↓
-Orchestrator Agent (routes & coordinates)
-    ↓
-┌─────────────────────────────────────────────────┐
-│  Specialized Agents (invoked as needed)         │
-├─────────────────────────────────────────────────┤
-│  • Innovation & Ideation Specialist             │
-│  • Product Manager                              │
-│  • Clinical Psychologist                        │
-│  • UX/UI Designer                               │
-│  • Devil's Advocate                             │
-│  • Arabic Language & Content Specialist         │
-│  • MVP & Hypothesis Testing Specialist          │
-└─────────────────────────────────────────────────┘
-    ↓
-Synthesized Recommendation + Individual Perspectives
-    ↓
-User Decision
+1. Business Strategist → Market opportunity analysis
+   "Is meditation a viable feature for Middle Eastern users?"
+   
+2. Market Validation Specialist → User research and validation
+   "Do our target users want guided meditation? How do they currently meditate?"
+   
+3. Psychologist (Arabic ME) → Clinical framework design
+   "What meditation techniques are culturally appropriate and therapeutically effective?"
 ```
 
-### Workflow Patterns
-
-**Sequential** (for dependencies):
+#### Phase 2: Solution Design (Parallel)
 ```
-Innovation → MVP Testing → Product Manager → Implementation
-```
-
-**Parallel** (for independent analysis):
-```
-                    ┌─ Clinical Psychologist
-Innovation Idea → ──┼─ Devil's Advocate
-                    ├─ UX Designer
-                    └─ Arabic Language Specialist
-→ Synthesize → Decision
+4. Innovation Specialist (Creative Ideation) → Feature ideation
+   "What unique meditation experiences could we create?"
+   
+5. UX/UI Designer (Arabic RTL) → Interface and interaction design
+   "How should the meditation interface look and feel?"
+   
+6. Content Specialist (Arabic ME) → Script and audio content
+   "What should the guided meditation scripts say in Arabic?"
 ```
 
-**Iterative** (for refinement):
+#### Phase 3: Critical Review (Sequential)
 ```
-Innovation → Devil's Advocate (challenges) →
-Innovation (refines) → MVP Testing (validates) →
-Product Manager (decides)
+7. Devils Advocate → Challenge assumptions and identify risks
+   "What could go wrong? What are we missing?"
+   
+8. Product Manager (Arabic Mobile) → Strategic alignment and prioritization
+   "Does this fit our roadmap? What's the business case?"
 ```
 
-## 🤖 Agent Directory
+#### Phase 4: Validation & Launch (Parallel)
+```
+9. Validation Specialist → MVP design and testing
+   "How do we test this with minimal resources?"
+   
+10. Project Manager → Implementation planning
+    "What's the timeline, resources, and dependencies?"
+```
 
-### 1. **Orchestrator Agent** 
-**Path**: `orchestration/Orchestrator-Agent_Multi-Agent-Workflow-Coordinator.md`
+#### Phase 5: Orchestration (Continuous)
+```
+11. Multi-Agent Orchestrator → Synthesize all inputs
+    "Combine insights from all agents into a cohesive recommendation"
+```
 
-**Role**: Central coordinator that routes requests, manages workflows, synthesizes outputs, and resolves conflicts.
+### Expected Outcome:
+A comprehensive meditation feature strategy that is:
+- **Culturally authentic** (Psychologist + Content Specialist)
+- **User-validated** (Market Validation + Devils Advocate)
+- **Beautifully designed** (UX/UI Designer)
+- **Strategically sound** (Business Strategist + Product Manager)
+- **Feasibly implemented** (Project Manager + Validation Specialist)
+- **Creatively differentiated** (Innovation Specialist)
 
-**When to use**: 
-- Default entry point for all requests
-- Complex requests requiring multiple agents
-- When you need synthesized recommendations from multiple perspectives
+### Pro Tips for Multi-Agent Orchestration:
+- **Start with strategy** before diving into tactics
+- **Run parallel workstreams** when agents don't depend on each other
+- **Always include the Devils Advocate** to challenge groupthink
+- **End with the Orchestrator** to synthesize conflicting viewpoints
+- **Iterate based on validation results** rather than assumptions
 
-**Key capabilities**:
-- Request classification (feature request, validation, review, ideation)
-- Agent routing (sequential, parallel, iterative)
-- Output synthesis and conflict resolution
-- Context management across multi-turn conversations
+## 🎮 How to Use These Agents
 
----
+### For Individual Consultation
+- Choose the agent that best matches your challenge or domain
+- Provide context about your situation, goals, and constraints
+- Ask specific questions or request strategic guidance
+- Expect expert-level analysis and actionable recommendations
 
-### 2. **Innovation & Ideation Specialist**
-**Path**: `innovation/Innovation-Ideation-Specialist_Creative-Problem-Solver.md`
+### For Multi-Agent Collaboration
+- Start with the **Orchestrator Agent** to design your multi-agent workflow
+- Engage multiple agents in sequence or parallel based on your needs
+- Use agents' collaboration frameworks to ensure smooth handoffs
+- Synthesize insights from multiple perspectives for comprehensive solutions
 
-**Role**: Generates creative ideas, discovers opportunities, and proposes new features for the happiness application.
+### For Entrepreneurial Exploration
+- Use agents to explore new business ideas from multiple angles
+- Validate concepts through different expert lenses
+- Identify blind spots and potential challenges early
+- Develop comprehensive strategies with diverse expertise
 
-**When to use**:
-- Customer feature requests
-- Proactive opportunity discovery
-- Brainstorming new capabilities
-- Exploring "what if" scenarios
+## 🌟 Key Features
 
-**Key capabilities**:
-- Generate 10+ diverse ideas per request
-- Discover unmet needs customers haven't articulated
-- Apply well-being trends and Middle Eastern cultural insights
-- Align ideas with 4 Pillars Framework (Emotional, Physical, Spiritual, Social)
+- **Expert-Level Knowledge**: Each agent embodies 10-15+ years of specialized experience
+- **Cultural Specialization**: Agents with deep Middle Eastern and Arabic expertise
+- **Collaborative Design**: Built for multi-agent workflows and cross-functional thinking
+- **Practical Focus**: Emphasis on actionable insights and implementation guidance
+- **Entrepreneurial Mindset**: Designed for innovation, risk-taking, and creative problem-solving
 
----
+## 🎯 Use Cases
 
-### 3. **Product Manager**
-**Path**: `product/PM-Agent-Prompt_B2C-Mobile-Principal.md`
+### Business Development
+- New product ideation and validation
+- Market entry strategy development
+- Competitive analysis and positioning
+- Business model innovation
 
-**Role**: Prioritizes features, assesses business viability, manages roadmap, and makes strategic decisions.
+### Product Development
+- User experience design and optimization
+- Feature prioritization and roadmapping
+- Technical feasibility assessment
+- Go-to-market planning
 
-**When to use**:
-- Feature prioritization
-- Business case evaluation
-- Roadmap planning
-- Strategic alignment decisions
+### Strategic Planning
+- Long-term vision development
+- Risk assessment and mitigation
+- Resource allocation and planning
+- Performance measurement and optimization
 
-**Key capabilities**:
-- Assess market fit and competitive positioning
-- Prioritize based on strategic value
-- Balance business goals with user needs
-- Make go/no-go decisions
-
----
-
-### 4. **Clinical Psychologist**
-**Path**: `psychology/Happiness-Psychologist-Agent_Arabic-ME-Wellbeing.md`
-
-**Role**: Validates therapeutic appropriateness, ensures psychological safety, and designs evidence-based interventions.
-
-**When to use**:
-- Validating psychological content
-- Designing therapeutic exercises
-- Ensuring clinical appropriateness
-- Addressing mental health concerns
-
-**Key capabilities**:
-- Apply CBT, mindfulness, and positive psychology principles
-- Validate therapeutic efficacy
-- Ensure cultural sensitivity in psychological content
-- Design interventions aligned with 4 Pillars Framework
-
----
-
-### 5. **UX/UI Designer**
-**Path**: `design/UX-UI-Designer-Agent_Arabic-RTL-Wellbeing.md`
-
-**Role**: Designs interfaces, ensures minimal-click architecture, validates usability, and creates design systems.
-
-**When to use**:
-- UI/UX design and review
-- Interaction pattern validation
-- Design system creation
-- Usability testing
-
-**Key capabilities**:
-- Minimal-click architecture (max 2-level navigation depth)
-- Arabic RTL-first design
-- Calming, tranquil aesthetics
-- Accessibility compliance (WCAG AA)
-
----
-
-### 6. **Devil's Advocate**
-**Path**: `strategy/Devils-Advocate-Agent_Critical-Analysis-Gap-Detection.md`
-
-**Role**: Challenges assumptions, identifies risks, finds gaps, and strengthens proposals through critical analysis.
-
-**When to use**:
-- Validating assumptions
-- Risk assessment
-- Gap detection
-- Challenging groupthink
-
-**Key capabilities**:
-- Map and challenge assumptions
-- Generate edge cases and failure modes
-- Multi-perspective analysis (user, business, technical, cultural, ethical)
-- Constructive critique with alternatives
-
----
-
-### 7. **Arabic Language & Content Specialist**
-**Path**: `content/Arabic-Language-Content-Specialist_ME-Wellbeing.md`
-
-**Role**: Ensures linguistic excellence, cultural authenticity, readability, and emotional resonance in Arabic content.
-
-**When to use**:
-- Arabic content creation
-- Translation and localization
-- Content review and refinement
-- Cultural validation
-
-**Key capabilities**:
-- Clear, accessible Arabic for diverse literacy levels
-- Balance Modern Standard Arabic with Gulf dialect warmth
-- Calming, empathetic, therapeutic tone
-- Cultural authenticity without stereotypes
-
----
-
-### 8. **MVP & Hypothesis Testing Specialist**
-**Path**: `validation/MVP-Hypothesis-Testing-Specialist_Rapid-Validation.md`
-
-**Role**: Designs experiments, validates assumptions, and provides evidence-based recommendations.
-
-**When to use**:
-- Validating product ideas
-- Designing experiments
-- User research
-- Data-driven decision making
-
-**Key capabilities**:
-- Lean experiment design (concierge MVPs, Wizard of Oz, landing pages, A/B tests)
-- Hypothesis formulation with clear success criteria
-- Rapid prototyping (Figma, no-code tools)
-- Cultural adaptation for Middle Eastern user research
-
----
+### Creative Problem-Solving
+- Breakthrough innovation ideation
+- Complex challenge decomposition
+- Multi-perspective analysis
+- Solution synthesis and integration
 
 ## 🚀 Getting Started
 
-### Option 1: Use the Orchestrator (Recommended)
+1. **Explore the Agents**: Browse the different categories and read agent profiles
+2. **Identify Your Challenge**: Define the problem or opportunity you're working on
+3. **Select Relevant Agents**: Choose agents whose expertise matches your needs
+4. **Design Your Workflow**: Use the Orchestrator Agent to plan multi-agent collaboration
+5. **Engage and Iterate**: Work with agents iteratively to refine and improve solutions
 
-**For most requests**, start with the Orchestrator Agent:
+## 🎨 Agent Specializations
 
-1. Copy the Orchestrator Agent prompt into your AI tool
-2. Provide your request (e.g., "I want to add voice-based mood journaling")
-3. The Orchestrator will automatically route to appropriate agents and synthesize outputs
+### Cultural & Regional Expertise
+- **Arabic/Middle Eastern Focus**: Specialized agents for Arabic-speaking markets
+- **Cultural Sensitivity**: Deep understanding of regional values and preferences
+- **Localization Excellence**: Native-level cultural and linguistic adaptation
 
-**Example**:
-```
-User: "I want to add voice-based mood journaling in Arabic"
+### Domain Depth
+- **Clinical Psychology**: Licensed professional expertise in mental health
+- **Mobile Product Management**: Specialized in viral B2C mobile applications
+- **RTL Design**: Expert-level Arabic right-to-left interface design
+- **Innovation Methodologies**: Systematic approaches to breakthrough thinking
 
-Orchestrator: 
-- Routes to Innovation Specialist (generate ideas)
-- Routes to Product Manager (assess strategic fit)
-- Routes to Devil's Advocate (challenge assumptions)
-- Routes to MVP Testing Specialist (design validation)
-- Routes to Clinical Psychologist, UX Designer, Arabic Language Specialist (parallel refinement)
-- Synthesizes outputs and provides unified recommendation
-```
+## 🔮 Future Vision
 
-### Option 2: Direct Agent Invocation (Advanced)
+This collection represents an ongoing experiment in:
+- **AI-Powered Collaboration**: How specialized AI agents can work together effectively
+- **Entrepreneurial AI**: Using AI to accelerate business development and innovation
+- **Cultural AI Adaptation**: Creating AI agents that understand and serve diverse cultures
+- **Multi-Modal Problem Solving**: Combining different types of expertise for comprehensive solutions
 
-**For specific needs**, directly use individual agents:
+## 📝 Contributing
 
-1. Copy the specific agent prompt into your AI tool
-2. Provide context (application focus, target users, constraints)
-3. Ask your question
-4. Follow agent's recommendations for consulting other agents
+This is a personal exploration project, but ideas and feedback are welcome! Each agent represents a synthesis of professional expertise, industry best practices, and collaborative design principles.
 
-**Example**:
-```
-User: "Review this Arabic notification copy for a 3-day streak"
+## ⚖️ License
 
-Arabic Language Specialist:
-- Reviews linguistic quality
-- Assesses cultural authenticity
-- Recommends consulting Clinical Psychologist for therapeutic tone validation
-```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📋 Common Workflows
-
-### Workflow 1: New Feature Request
-
-```
-1. User → Orchestrator: "I want to add [feature]"
-2. Orchestrator → Innovation Specialist: Generate ideas
-3. Orchestrator → Product Manager: Prioritize ideas
-4. Orchestrator → Devil's Advocate: Challenge assumptions
-5. Orchestrator → MVP Testing Specialist: Design validation
-6. Orchestrator → Domain Agents (parallel): Refine validated ideas
-7. Orchestrator → User: Synthesized recommendation
-```
-
-### Workflow 2: Proactive Innovation
-
-```
-1. User → Orchestrator: "What new features should we build?"
-2. Orchestrator → Innovation Specialist: Discover opportunities
-3. Orchestrator → Product Manager: Assess strategic fit
-4. Orchestrator → Devil's Advocate: Challenge assumptions
-5. Orchestrator → MVP Testing Specialist: Validate top ideas
-6. Orchestrator → User: Prioritized recommendations
-```
-
-### Workflow 3: Design/Content Review
-
-```
-1. User → Orchestrator: "Review this [design/content]"
-2. Orchestrator → Relevant Specialist (UX Designer or Arabic Language Specialist): Lead review
-3. Orchestrator → Clinical Psychologist (parallel): Validate therapeutic appropriateness
-4. Orchestrator → Devil's Advocate (parallel): Challenge assumptions
-5. Orchestrator → User: Synthesized feedback
-```
-
-### Workflow 4: Rapid Validation
-
-```
-1. User → Orchestrator: "Should we build this?"
-2. Orchestrator → Devil's Advocate: Challenge assumptions
-3. Orchestrator → MVP Testing Specialist: Design validation
-4. Orchestrator → Product Manager: Assess strategic fit
-5. Orchestrator → User: Go/no-go recommendation
-```
-
-## 🎨 Application Context
-
-These agents are designed for an **Arabic-first Middle Eastern happiness and well-being mobile application** with:
-
-- **Target users**: Middle Eastern professionals aged 30-60
-- **4 Pillars Framework**: Emotional, Physical, Spiritual, Social well-being
-- **Core principles**: Simplicity, Cultural Resonance, Inclusivity
-- **Design philosophy**: Minimal-click architecture, tranquil aesthetics, RTL-first
-- **Cultural context**: Middle Eastern values, Islamic cultural sensitivity, family-centric
-
-**Adaptation**: While built for this specific application, these agent prompts can be adapted for any complex product requiring diverse expertise. Simply update the "Application Context" sections in each prompt.
-
-## 🔧 Customization
-
-### Adding New Agents
-
-1. Create new agent prompt following the template structure:
-   - Role & Mission
-   - Agentic Capabilities
-   - Multi-Agent Collaboration Framework
-   - Context Requirements
-   - Reasoning Framework
-   - Core Competencies
-   - Core Principles
-   - Response Framework
-   - Example Scenarios
-
-2. Update Orchestrator Agent to include new agent in routing rules
-
-3. Update this README with new agent description
-
-### Modifying Existing Agents
-
-Each agent prompt is self-contained and can be modified independently. Key sections to customize:
-
-- **Context Requirements**: Update for your application domain
-- **Core Principles**: Adjust to your product values
-- **Example Scenarios**: Replace with domain-specific examples
-- **Multi-Agent Collaboration Framework**: Update agent references as needed
-
-## 📚 Best Practices
-
-### 1. **Start with the Orchestrator**
-Let the Orchestrator handle routing and synthesis for complex requests. Only use direct agent invocation when you have specific, focused needs.
-
-### 2. **Provide Rich Context**
-Agents perform best with clear context:
-- Application focus and target users
-- Constraints (technical, cultural, business)
-- Success criteria
-- Previous agent outputs (if applicable)
-
-### 3. **Embrace Iteration**
-Multi-agent collaboration is iterative:
-- Innovation generates ideas
-- Devil's Advocate challenges
-- Innovation refines
-- MVP Testing validates
-- Product Manager decides
-
-### 4. **Respect Domain Hierarchy**
-When agents conflict:
-- **Clinical Psychologist** overrides on therapeutic appropriateness
-- **Arabic Language Specialist** overrides on cultural authenticity
-- **UX Designer** overrides on usability/accessibility
-- **Product Manager** makes final strategic decisions
-
-### 5. **Validate Before Building**
-Always route ideas through MVP Testing Specialist before full implementation. Fast, cheap experiments save time and resources.
 ---
 
-**Questions or feedback?** Open an issue or reach out directly.
+**Built for exploration, innovation, and the joy of creative problem-solving** 🚀
 
-**Ready to build?** Start with the Orchestrator Agent and let the multi-agent system guide you to better product decisions.
+*These agents are designed to inspire, challenge, and support entrepreneurial thinking. Use them to explore new ideas, validate concepts, and build amazing things!*
